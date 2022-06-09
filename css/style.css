@@ -38,21 +38,62 @@
 }
 
 .header .nav-bar a:nth-child(1) {
-    background: red;
+  background: red;
 }
 
 .header .nav-bar a:nth-child(2) {
-    background: green;
+  background: green;
 }
 
 .header .nav-bar a:nth-child(3) {
-    background: purple;
+  background: purple;
 }
 
 .header .nav-bar a:nth-child(4) {
-    background: orange;
+  background: orange;
 }
 
 .header .nav-bar a:nth-child(5) {
-    background: blue;
+  background: blue;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  width: 500%;
+  height: 100vh;
+}
+
+.container .main-section {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 8vw;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: azure;
+}
+
+.container .main-section:nth-child(1) {
+  background: red;
+}
+
+.container .main-section:nth-child(2) {
+  background: green;
+}
+
+.container .main-section:nth-child(3) {
+  background: purple;
+}
+
+.container .main-section:nth-child(4) {
+  background: orange;
+}
+
+.container .main-section:nth-child(5) {
+  background: blue;
 }
